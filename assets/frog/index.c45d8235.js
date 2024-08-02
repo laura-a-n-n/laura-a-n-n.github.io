@@ -1,0 +1,2 @@
+class GUIWindow{constructor(t,i,s,h,e,l,r){this.x=t,this.y=i,this.w=s,this.h=h,this.margin=e,this.title=l,this.message=r}draw(t){push(),stroke(0,t),fill(0,t),rect(this.x,this.y,this.w,this.h),fill(255,t),textSize(24),textFont(pixelFont),text(this.title,this.x+this.margin,this.y+3*this.margin),fill(255,t),rect(this.x,this.y+5*this.margin,this.w,this.h-5*this.margin),fill(0,t),textSize(24),textAlign(CENTER),text(this.message,this.x+this.w/2,this.y+this.h/3+2*this.margin),pop()}}
+//# sourceMappingURL=index.c45d8235.js.map

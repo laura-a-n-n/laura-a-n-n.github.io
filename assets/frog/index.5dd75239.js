@@ -1,0 +1,2 @@
+function GridLevel(){generalState.bg=gfx["bg-2"],generalState.bgScale=1,generalState.drawBackground=drawBackground,Object.assign(this,generalState),this.envFunction=linearEnvironment2D,this.earlySetup=function(){generalState.bg=gfx["bg-2"],generalState.bgScale=1,generalState.drawBackground=drawBackground},this.particularSetup=function(){this.song=mgr.sfx.soso,this.songVol=.4}}
+//# sourceMappingURL=index.5dd75239.js.map

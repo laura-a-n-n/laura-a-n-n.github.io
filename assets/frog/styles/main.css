@@ -1,0 +1,36 @@
+body {
+  background: #000;
+
+  text-align: center;
+
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.slider {
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+.slider:focus { outline: none }
+
+.slider::-webkit-slider-runnable-track {
+  background: #000;
+  height: 3px;
+  -webkit-appearance: none;
+  
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  
+  margin-top: -6px;
+  border-radius: 8px;
+}

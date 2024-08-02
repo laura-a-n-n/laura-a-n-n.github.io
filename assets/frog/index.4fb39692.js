@@ -1,0 +1,2 @@
+function camelizeDashes(t){return t.replace(/-([a-z])/g,(t=>t[1].toUpperCase()))}function clamp(t,e,n){return Math.min(Math.max(t,e),n)}function easeOutQuad(t){return 1-(1-t)*(1-t)}function setLineDash(t){drawingContext.setLineDash(t)}function pointTest(t,e,n,r,a,i){return a>=t&&a<=t+n&&i>=e&&i<=e+r}function rectTest(t,e,n,r,a,i,o,u){return rectangle=[t,e,n,r],left=a,right=a+o,up=i,bottom=i+u,pointTest(...rectangle,left,up)||pointTest(...rectangle,right,up)||pointTest(...rectangle,left,bottom)||pointTest(...rectangle,right,bottom)}
+//# sourceMappingURL=index.4fb39692.js.map
